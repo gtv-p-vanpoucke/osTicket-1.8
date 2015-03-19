@@ -135,7 +135,9 @@ div#header a {
     clear:both;
     margin:0;
     padding:0 20px;
-    height:26px;
+    /* height doesn't seem necessary; not helpful for translated menu item (eg. nl / Dutch) either
+    height:26px; 
+    */
     line-height:26px;
     border-left:1px solid #aaa;
     border-right:1px solid #aaa;
